@@ -1,1 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1000" height="460" viewBox="0 0 1000 460">
 
+  <!-- 卡片背景 -->
+  <rect x="2" y="2" width="996" height="456"
+        rx="24" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+
+  <!-- 顶栏三个圆点 -->
+  <circle cx="36" cy="32" r="7" fill="#ff5f57"/>
+  <circle cx="60" cy="32" r="7" fill="#febc2e"/>
+  <circle cx="84" cy="32" r="7" fill="#28c840"/>
+
+  <!-- 顶栏标题 -->
+  <text x="500" y="38" text-anchor="middle"
+        font-family="monospace" font-size="16" fill="#57606a">
+    liujing000 — Personal Space
+  </text>
+
+  <path d="M 2 62 H 998" stroke="#d0d7de"/>
+
+  <!-- 正文 -->
+  <g font-family="monospace" font-size="23" fill="#57606a">
+    <text x="48" y="118" font-weight="bold">
+      刘静 · AI Product Manager
+    </text>
+
+    <text x="48" y="172">
+      <tspan fill="#1a7f37">[ OK ]</tspan> 探索 AI Agent 与智能工作流
+    </text>
+
+    <text x="48" y="216">
+      <tspan fill="#1a7f37">[ OK ]</tspan> 从用户需求到产品落地
+    </text>
+
+    <text x="48" y="284" fill="#0969da">
+      liujing000 ~ % whoami
+    </text>
+
+    <text x="48" y="328">
+      喜欢动手实践，把想法做成产品。
+    </text>
+
+    <text x="48" y="408" fill="#0969da" font-weight="bold">
+      点击访问我的个人网站 →
+    </text>
+  </g>
+</svg>
