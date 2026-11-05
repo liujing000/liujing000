@@ -1,47 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="1000" height="460" viewBox="0 0 1000 460">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+  <title id="title">Liu Jing interactive terminal</title>
+  <desc id="desc">An animated terminal that types Liu Jing's AI product introduction line by line</desc>
+  <style>
+    :root { color-scheme: light dark; }
+    .window { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 2; }
+    .bar { fill: #eef1f4; }
+    .divider { stroke: #d0d7de; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .meta { fill: #8c959f; font-size: 13px; letter-spacing: .5px; }
+    .text { fill: #57606a; font-size: 25px; }
+    .title-text { font-size: 27px; font-weight: 700; }
+    .ok { fill: #1a7f37; }
+    .prompt { fill: #0969da; }
+    .cta { fill: #0969da; font-weight: 700; }
+    .typed { clip-path: inset(0 100% 0 0); }
+    .l1 { animation: type1 10s steps(28, end) 1 forwards; }
+    .l2 { animation: type2 10s steps(32, end) 1 forwards; }
+    .l3 { animation: type3 10s steps(30, end) 1 forwards; }
+    .l4 { animation: type4 10s steps(24, end) 1 forwards; }
+    .l5 { animation: type5 10s steps(20, end) 1 forwards; }
+    .l6 { animation: type6 10s steps(25, end) 1 forwards; }
+    .arrow { animation: arrow .8s ease-in-out 7.4s 1 forwards; }
+    @keyframes type1 { 0%,2%{clip-path:inset(0 100% 0 0)} 12%,100%{clip-path:inset(0 0 0 0)} }
+    @keyframes type2 { 0%,14%{clip-path:inset(0 100% 0 0)} 24%,100%{clip-path:inset(0 0 0 0)} }
+    @keyframes type3 { 0%,26%{clip-path:inset(0 100% 0 0)} 36%,100%{clip-path:inset(0 0 0 0)} }
+    @keyframes type4 { 0%,38%{clip-path:inset(0 100% 0 0)} 48%,100%{clip-path:inset(0 0 0 0)} }
+    @keyframes type5 { 0%,50%{clip-path:inset(0 100% 0 0)} 60%,100%{clip-path:inset(0 0 0 0)} }
+    @keyframes type6 { 0%,62%{clip-path:inset(0 100% 0 0)} 74%,100%{clip-path:inset(0 0 0 0)} }
+    @keyframes arrow { 0%{transform:translateX(0);opacity:.45} 60%{transform:translateX(8px);opacity:1} 100%{transform:translateX(4px);opacity:1} }
+    @media (prefers-color-scheme: dark) {
+      .window { fill: #0d1117; stroke: #30363d; }
+      .bar { fill: #161b22; }
+      .divider { stroke: #30363d; }
+      .text { fill: #b1bac4; }
+      .meta { fill: #7d8590; }
+      .ok { fill: #3fb950; }
+      .prompt, .cta { fill: #58a6ff; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .typed { animation: none; clip-path: none; }
+      .arrow { animation: none; }
+    }
+  </style>
 
-  <!-- 卡片背景 -->
-  <rect x="2" y="2" width="996" height="456"
-        rx="24" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+  <rect class="window" x="1" y="1" width="998" height="498" rx="20"/>
+  <path class="bar" d="M21 2h958a20 20 0 0 1 20 20v39H1V22A20 20 0 0 1 21 2z"/>
+  <line class="divider" x1="1" y1="62" x2="999" y2="62"/>
+  <circle cx="30" cy="31" r="7" fill="#ff5f57"/>
+  <circle cx="55" cy="31" r="7" fill="#febc2e"/>
+  <circle cx="80" cy="31" r="7" fill="#28c840"/>
+  <text class="mono meta" x="500" y="36" text-anchor="middle">liujing000 — Personal Space</text>
 
-  <!-- 顶栏三个圆点 -->
-  <circle cx="36" cy="32" r="7" fill="#ff5f57"/>
-  <circle cx="60" cy="32" r="7" fill="#febc2e"/>
-  <circle cx="84" cy="32" r="7" fill="#28c840"/>
-
-  <!-- 顶栏标题 -->
-  <text x="500" y="38" text-anchor="middle"
-        font-family="monospace" font-size="16" fill="#57606a">
-    liujing000 — Personal Space
-  </text>
-
-  <path d="M 2 62 H 998" stroke="#d0d7de"/>
-
-  <!-- 正文 -->
-  <g font-family="monospace" font-size="23" fill="#57606a">
-    <text x="48" y="118" font-weight="bold">
-      刘静 · AI Product Manager
-    </text>
-
-    <text x="48" y="172">
-      <tspan fill="#1a7f37">[ OK ]</tspan> 探索 AI Agent 与智能工作流
-    </text>
-
-    <text x="48" y="216">
-      <tspan fill="#1a7f37">[ OK ]</tspan> 从用户需求到产品落地
-    </text>
-
-    <text x="48" y="284" fill="#0969da">
-      liujing000 ~ % whoami
-    </text>
-
-    <text x="48" y="328">
-      喜欢动手实践，把想法做成产品。
-    </text>
-
-    <text x="48" y="408" fill="#0969da" font-weight="bold">
-      点击访问我的个人网站 →
-    </text>
+  <g class="mono text">
+    <text class="typed l1 title-text" x="55" y="115">刘静 · AI Product Manager</text>
+    <text class="typed l2" x="55" y="181">[ <tspan class="ok">OK</tspan> ] 探索 AI Agent 与智能工作流</text>
+    <text class="typed l3" x="55" y="247">[ <tspan class="ok">OK</tspan> ] 从用户需求到产品落地</text>
+    <text class="typed l4 prompt" x="55" y="325">liujing000 ~ % whoami</text>
+    <text class="typed l5" x="55" y="391">喜欢动手实践，把想法做成产品。</text>
+    <text class="typed l6 cta" x="55" y="457">点击访问我的个人网站 <tspan class="arrow">→</tspan></text>
   </g>
 </svg>

@@ -1,31 +1,39 @@
-<a id="english"></a>
+<div align="center">
 
-# Hi, I'm Liujing 👋
+# Hi, I'm Liu Jing <img src="./assets/waving-hand.svg" width="34" height="34" alt="Waving hand" />
 
-[![访问我的个人网站](./assets/terminal.svg)](https://liujing000.github.io/website/)
+**AI Product Manager · Building AI Agents and intelligent workflows**
 
-<p align="center"><sub>Click the Clear Light terminal to launch my personal website</sub></p>
+[**English**](README.md) · [简体中文](README.zh-CN.md)
 
-🌐 [Website](https://liujing000.github.io/website/) · 📕 [Xiaohongshu](https://www.xiaohongshu.com/user/profile/6a748bee0000000013021c00)
+</div>
+
+[![Open Liu Jing's personal website](./assets/terminal.svg)](https://liujing000.github.io/website/)
+
+<p align="center"><sub>Click the animated terminal to visit my personal website</sub></p>
+
+I explore AI Agents and intelligent workflows, turning user needs into products that work.<br>
+I enjoy learning by building—and turning ideas into real experiences.
+
+🌐 [Website](https://liujing000.github.io/website/) · 📕 [Xiaohongshu](https://www.xiaohongshu.com/user/profile/6a748bee0000000013021c00) · 💻 [Repositories](https://github.com/liujing000?tab=repositories)
 
 ---
 
-## ⭐ Featured projects
+## ⭐ Featured project
 
-Products built through an engineering and product lens.
+### 💍 ai-wedding
 
-🧰 [**ai-wedding**]()  
-Local-first DeepSeek Harness plugins for product research.  
-Includes context routing and plugin preflight.  
-Also includes compatibility monitoring.
+An AI product explored and built from a product perspective—from user needs and experience design to implementation.
 
 ---
 
 ## ✍️ Writing
 
-I write about AI products through an engineering and product lens.
+I write about AI products, emerging technology, and the product thinking behind them.
 
-- [AI 偷偷爬出沙盒自己上网，OpenAI 连夜按下了暂停键](https://mp.weixin.qq.com/s/4ohYBRZCEBibyb9TSAeV3w)
-- [Muse 把 ChatGPT 挤下神坛，Meta 市值暴涨 4000 亿，然后它翻车了](https://mp.weixin.qq.com/s/0XPTRrmcL7lFMFTeLCf5uQ)
+- [AI escaped the sandbox and went online—OpenAI hit pause overnight](https://mp.weixin.qq.com/s/4ohYBRZCEBibyb9TSAeV3w)
+- [Muse displaced ChatGPT, added $400B to Meta's market cap—and then stumbled](https://mp.weixin.qq.com/s/0XPTRrmcL7lFMFTeLCf5uQ)
 
 ---
+
+<div align="center"><sub><strong>Learn by building. Turn ideas into products.</strong></sub></div>
