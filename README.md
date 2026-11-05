@@ -1,8 +1,6 @@
-<div align="center">
-
 # Hi, I'm Liu Jing <img src="./assets/waving-hand.svg" width="34" height="34" alt="Waving hand" />
 
-**AI Product Manager · Building AI Agents and intelligent workflows**
+<div align="center">
 
 [**English**](README.md) · [简体中文](README.zh-CN.md)
 

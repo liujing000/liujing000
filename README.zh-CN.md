@@ -1,8 +1,6 @@
-<div align="center">
-
 # 你好，我是刘静 <img src="./assets/waving-hand.svg" width="34" height="34" alt="挥手" />
 
-**AI 产品经理 · 探索 AI Agent 与智能工作流**
+<div align="center">
 
 [English](README.md) · [**简体中文**](README.zh-CN.md)
 
