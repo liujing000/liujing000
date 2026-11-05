@@ -13,20 +13,15 @@
     .ok { fill: #1a7f37; }
     .prompt { fill: #0969da; }
     .cta { fill: #0969da; font-weight: 700; }
-    .typed { clip-path: inset(0 100% 0 0); }
-    .l1 { animation: type1 10s steps(28, end) 1 forwards; }
-    .l2 { animation: type2 10s steps(32, end) 1 forwards; }
-    .l3 { animation: type3 10s steps(30, end) 1 forwards; }
-    .l4 { animation: type4 10s steps(24, end) 1 forwards; }
-    .l5 { animation: type5 10s steps(20, end) 1 forwards; }
-    .l6 { animation: type6 10s steps(25, end) 1 forwards; }
-    .arrow { animation: arrow .8s ease-in-out 7.4s 1 forwards; }
-    @keyframes type1 { 0%,2%{clip-path:inset(0 100% 0 0)} 12%,100%{clip-path:inset(0 0 0 0)} }
-    @keyframes type2 { 0%,14%{clip-path:inset(0 100% 0 0)} 24%,100%{clip-path:inset(0 0 0 0)} }
-    @keyframes type3 { 0%,26%{clip-path:inset(0 100% 0 0)} 36%,100%{clip-path:inset(0 0 0 0)} }
-    @keyframes type4 { 0%,38%{clip-path:inset(0 100% 0 0)} 48%,100%{clip-path:inset(0 0 0 0)} }
-    @keyframes type5 { 0%,50%{clip-path:inset(0 100% 0 0)} 60%,100%{clip-path:inset(0 0 0 0)} }
-    @keyframes type6 { 0%,62%{clip-path:inset(0 100% 0 0)} 74%,100%{clip-path:inset(0 0 0 0)} }
+    .typed { opacity: 0; transform: translateY(5px); animation: reveal .55s ease-out 1 forwards; }
+    .l1 { animation-delay: .15s; }
+    .l2 { animation-delay: .48s; }
+    .l3 { animation-delay: .81s; }
+    .l4 { animation-delay: 1.14s; }
+    .l5 { animation-delay: 1.47s; }
+    .l6 { animation-delay: 1.80s; }
+    .arrow { animation: arrow .8s ease-in-out 2.15s 1 forwards; }
+    @keyframes reveal { to { opacity: 1; transform: translateY(0); } }
     @keyframes arrow { 0%{transform:translateX(0);opacity:.45} 60%{transform:translateX(8px);opacity:1} 100%{transform:translateX(4px);opacity:1} }
     @media (prefers-color-scheme: dark) {
       .window { fill: #0d1117; stroke: #30363d; }
@@ -38,7 +33,7 @@
       .prompt, .cta { fill: #58a6ff; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .typed { animation: none; clip-path: none; }
+      .typed { animation: none; opacity: 1; transform: none; }
       .arrow { animation: none; }
     }
   </style>
