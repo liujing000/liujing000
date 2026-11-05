@@ -6,7 +6,7 @@
 
 </div>
 
-[![访问刘静的个人网站](./assets/terminal.svg)](https://liujing000.github.io/website/)
+[![访问刘静的个人网站](./assets/terminal.svg?v=5efcbeb)](https://liujing000.github.io/website/)
 
 <p align="center"><sub>点击动态终端，访问我的个人网站</sub></p>
 

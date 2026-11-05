@@ -6,7 +6,7 @@
 
 </div>
 
-[![Open Liu Jing's personal website](./assets/terminal.svg)](https://liujing000.github.io/website/)
+[![Open Liu Jing's personal website](./assets/terminal.svg?v=5efcbeb)](https://liujing000.github.io/website/)
 
 <p align="center"><sub>Click the animated terminal to visit my personal website</sub></p>
 
